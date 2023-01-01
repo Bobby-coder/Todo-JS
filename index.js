@@ -50,6 +50,13 @@ window.addEventListener("load", () => {
       li.appendChild(delBtn);
       delBtn.addEventListener("click", () => removeItem(i));
     });
+
+    if(items.length > 1){
+      removeAll.style.display='initial'
+    }
+    else{
+      removeAll.style.display='none'
+    }
   };
 
   showList();

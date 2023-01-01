@@ -54,6 +54,7 @@ button {
     flex-grow: 1;
     border: none;
     outline: none;
+    padding: 0.2rem 0.5rem;
 }
 
 .add-btn, .save-btn{
@@ -81,4 +82,5 @@ button {
     font-size: 1.6rem;
     background-color: var(--black);
     color: var(--white);
+    display: none;
 }
