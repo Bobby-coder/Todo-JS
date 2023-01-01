@@ -10,6 +10,8 @@ let input = document.querySelector(".input");
 
 let inputHidden = document.querySelector(".input-hidden");
 
+localStorage.setItem('items', JSON.stringify(['Eat, Sleep, Code, Repeat']))
+
 window.addEventListener("load", () => {
   items = JSON.parse(localStorage.getItem("items")) || [];
 
