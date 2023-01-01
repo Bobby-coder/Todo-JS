@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@200;400;600;700;800&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --white: #ffffff;
+  --black: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.todo-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 30rem;
+  border: 1px solid black;
+}
+
+.todo-container-heading h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.todo-container-controls{
+    display: flex;
+}
+
+.todo-container-controls input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.add-btn, .save-btn{
+    margin-left: 1rem;
+}
+
+.single-todo{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+.single-todo span{
+    display: block;
+    font-size: 1.8rem;
+    flex-grow: 1;
+    word-break: break-all;
+}
+
+.edit-button{
+    margin: 0 1rem;
+}
+
+.remove-all{
+    font-size: 1.6rem;
+    background-color: var(--black);
+    color: var(--white);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:wght@200;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/4eb8d3518a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="todo-container">
+
+      <div class="todo-container-heading">
+        <h1>Todo App</h1>
+      </div>
+
+      <div class="todo-container-controls">
+        <input style="border: 1px solid black" type="text" class="input" />
+        <input style="border: 1px solid black" type="hidden" class="input-hidden" />
+        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+        <button class="save-btn" style="display: none;"><i class="fa-solid fa-pen-to-square"></i></button>
+      </div>
+
+      <div class="todo-list">
+        <ul></ul>
+      </div>
+    
+      <button class="remove-all">Remove All</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
